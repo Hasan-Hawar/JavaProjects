@@ -1,0 +1,41 @@
+#LoginScreen, #WithdrawScreen, #OverviewScreen, #TableScreen, #TransferScreen,#BalanceScreen{
+	-fx-padding: 20.0 40.0 40.0 80.0;
+  	-fx-font: normal bold 20.0px sans-serif;
+    -fx-alignment: center ;
+}
+
+#error{
+	-fx-font: normal bold 16.0px sans-serif;
+	-fx-text-fill: red;
+}
+
+#info{
+	-fx-font: normal bold 16.0px sans-serif;
+	-fx-text-fill: green;
+}
+
+#loginScreen .text-field{
+	-fx-padding: 5.0 
+}
+
+.button { 
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:120.0px;
+}
+
+.button:hover {
+-fx-background-color: yellow;
+}
+
+.label{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:120.0px;
+}
+
+.text-field{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:200.0px;
+}

@@ -1,0 +1,91 @@
+#title{
+	-fx-font: normal bold 24.0px Verdana;
+	-fx-padding: 5.0 10.0;
+}
+
+#loginScreen1{
+	-fx-padding: 10.0;
+  	-fx-font: normal bold 20.0px sans-serif;
+    -fx-alignment: center ;
+}
+
+#message{
+	-fx-text-fill: white;
+}
+
+#loginScreen .text-field{
+	-fx-padding: 5.0 
+}
+
+.button { 
+  -fx-font-size: 18.0px;  
+  -fx-font-family: monospace;
+  -fx-font-weight:bold;
+  -fx-padding: 10.0;
+  -fx-background-insets: 5,1,7,6;
+  -fx-background-radius: 10;
+  -fx-min-width:120.0px;
+}
+
+.label:hover {
+    -fx-text-fill: blue;
+}
+
+.button:disabled {
+   -fx-text-fill: grey;
+}
+
+.button:pressed {
+   -fx-text-fill: green;
+}
+
+.button:focused {
+   -fx-background-color: linear-gradient(#e4e4e0, #a40db0);
+   -fx-padding: 12.0, 20.0;
+}
+
+.label{
+	-fx-font: normal bold 16.0px sans-serif;
+	-fx-padding: 10.0 10.0 10.0 10.0;
+	-fx-min-width:120.0px;
+}
+
+.choice-box .label{
+	-fx-font-size:14.0px;
+	-fx-text-fill: rgb(50.0,150.0,150.0);
+	-fx-padding:5.0;
+}
+
+.radio-button{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+}
+.radio-button .dot {
+  -fx-mark-color: blue;
+}
+
+.text-field{
+	-fx-font: normal bold 18.0px sans-serif;
+	-fx-padding: 5.0 10.0 5.0 10.0;
+	-fx-min-width: 200.0px;
+	-fx-alignment: top-right;
+	-fx-text-fill:green;
+	-fx-prompt-text-fill: lightblue;
+}
+.text-field:focused{
+	-fx-text-fill:red;
+}
+
+.hbox{
+	-fx-padding: 5.0;
+    -fx-spacing:20.0pt;
+	-fx-alignment: center;
+	-fx-background-color: rgba(100, 100, 255, 0.3);
+}
+
+.mainPane{
+  -fx-padding: 5.0, 20.0;
+  -fx-hgap:5.0pt;
+  -fx-background-image: url("img.jpg");
+  -fx-background-repeat: no-repeat;
+}

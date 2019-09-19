@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="678.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.view.LoadGame2">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" layoutX="22.0" layoutY="52.0" prefHeight="144.0" prefWidth="864.0">
+               <children>
+                  <Label fx:id="label_card_1" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: Black; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_card_2" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: White; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_card_3" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #CE1919; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_card_4" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #007000; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_card_5" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #0E109F; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_card_6" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #D6D934; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="start" alignment="CENTER" contentDisplay="CENTER" layoutX="396.0" layoutY="14.0" mnemonicParsing="false" onAction="#start" prefHeight="30.0" prefWidth="120.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Spel starten">
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font></Button>
+            <HBox alignment="CENTER" layoutX="26.0" layoutY="250.0" prefHeight="144.0" prefWidth="864.0">
+               <children>
+                  <Label fx:id="label_Dice_1" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: Black; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_Dice_2" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: White; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_Dice_3" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #CE1919; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_Dice_4" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #007000; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_Dice_5" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #0E109F; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_Dice_6" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #D6D934; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="26.0" layoutY="438.0" prefHeight="144.0" prefWidth="864.0">
+               <children>
+                  <Label fx:id="Label_Choose_1" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: Black; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_Choose_2" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: White; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_Choose_3" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #CE1919; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_Choose_4" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #007000; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_Choose_5" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #0E109F; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Label_Choose_6" alignment="CENTER" contentDisplay="CENTER" prefHeight="144.0" prefWidth="144.0" style="-fx-border-color: Black; -fx-border-width: 3; -fx-background-color: #D6D934; -fx-border-radius: 15; -fx-background-radius: 15;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="selection" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="128.0" layoutY="207.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Auswahl fertig">
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="rollDice" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="388.0" layoutY="207.0" mnemonicParsing="false" onAction="#rollDice" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Wuerfeln">
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="finishRound" alignment="CENTER" contentDisplay="CENTER" disable="true" layoutX="648.0" layoutY="207.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Runde feenden">
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="selection_1" layoutX="82.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_1" />
+            <RadioButton fx:id="selection_2" layoutX="236.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_2" />
+            <RadioButton fx:id="selection_3" layoutX="374.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_3" />
+            <RadioButton fx:id="selection_4" layoutX="514.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_4" />
+            <RadioButton fx:id="selection_5" layoutX="662.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_5" />
+            <RadioButton fx:id="selection_6" layoutX="804.0" layoutY="412.0" mnemonicParsing="false" onAction="#selection_6" />
+            <Button fx:id="selectedButton" layoutX="931.0" layoutY="520.0" mnemonicParsing="false" text="Selected" visible="false" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="897.0" layoutY="437.0" prefHeight="30.0" prefWidth="120.0" style="-fx-border-radius: 15; -fx-background-radius: 15; -fx-border-color: Black;" text="Punktestand">
+               <font>
+                  <Font name="Arial Nova Cond" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="911.0" layoutY="477.0" prefHeight="30.0" prefWidth="100.0" style="-fx-border-color: Black; -fx-border-width: 2; -fx-border-style: dashed; -fx-border-radius: 15;">
+               <font>
+                  <Font name="Arial Nova Cond" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="80.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Spiel verlassen">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="home" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Home">
+               <HBox.margin>
+                  <Insets left="30.0" right="250.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="saving" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Speichern">
+               <HBox.margin>
+                  <Insets left="250.0" right="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="loading" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 15; -fx-border-radius: 15;" text="Laden">
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Arial Nova Cond" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>

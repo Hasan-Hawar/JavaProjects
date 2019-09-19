@@ -1,0 +1,244 @@
+!SESSION 2019-01-03 15:37:11.208 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data D:\oop1\Test -dev file:D:/oop1/.metadata/.plugins/org.eclipse.pde.core/New_configuration/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-01-03 15:37:14.083
+!MESSAGE Unable to create class 'org.eclipse.e4.ui.internal.workbench.ResourceHandler' from bundle '127'
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NoClassDefFoundError: jdk/internal/reflect/ConstructorAccessorImpl
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:422)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:193)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:108)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:77)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:382)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:586)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+Caused by: java.lang.NoClassDefFoundError: jdk/internal/reflect/ConstructorAccessorImpl
+	at java.base/jdk.internal.misc.Unsafe.defineClass0(Native Method)
+	at java.base/jdk.internal.misc.Unsafe.defineClass(Unsafe.java:1192)
+	at java.base/jdk.internal.reflect.ClassDefiner.defineClass(ClassDefiner.java:63)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator$1.run(MethodAccessorGenerator.java:400)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator$1.run(MethodAccessorGenerator.java:394)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator.generate(MethodAccessorGenerator.java:393)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator.generateConstructor(MethodAccessorGenerator.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:55)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.reflect.Proxy.newProxyInstance(Proxy.java:1022)
+	at java.base/java.lang.reflect.Proxy.newProxyInstance(Proxy.java:1008)
+	at java.base/sun.reflect.annotation.AnnotationParser$1.run(AnnotationParser.java:306)
+	at java.base/sun.reflect.annotation.AnnotationParser$1.run(AnnotationParser.java:304)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.reflect.annotation.AnnotationParser.annotationForMap(AnnotationParser.java:304)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:294)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:121)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:73)
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1175)
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1173)
+	at java.base/java.lang.reflect.Field.getAnnotation(Field.java:1142)
+	at java.base/java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:274)
+	at java.base/java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:517)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.isAnnotationPresent(InjectorImpl.java:1039)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processFields(InjectorImpl.java:718)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processClass(InjectorImpl.java:677)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processClassHierarchy(InjectorImpl.java:658)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:115)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: Could not find class 'jdk.internal.reflect.ConstructorAccessorImpl'
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.postFindClass(FXClassLoader.java:117)
+	at org.eclipse.osgi.internal.loader.BundleLoader.searchHooks(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:490)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 56 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.createModuleLoader(FXClassLoader.java:177)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.findClassJavaFX11(FXClassLoader.java:160)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.postFindClass(FXClassLoader.java:115)
+	... 62 more
+Caused by: java.lang.IllegalArgumentException: Module javafx.base not known to this layer
+	at java.base/java.lang.ModuleLayer.findLoader(ModuleLayer.java:885)
+	... 69 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 0 2019-01-03 15:37:14.160
+!MESSAGE Could not resolve module: org.eclipse.epp.logging.aeri.ide [170]
+  Unresolved requirement: Import-Package: org.apache.lucene.document; version="[7.1.0,8.0.0)"
+
+
+!ENTRY org.eclipse.osgi 4 0 2019-01-03 15:37:14.162
+!MESSAGE Application error
+!STACK 1
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:586)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2019-01-03 15:40:35.494 -----------------------------------------------
+eclipse.buildId=4.10.0.I20181206-0815
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data D:\oop1\Test -dev file:D:/oop1/.metadata/.plugins/org.eclipse.pde.core/New_configuration/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-01-03 15:40:38.435
+!MESSAGE Unable to create class 'org.eclipse.e4.ui.internal.workbench.ResourceHandler' from bundle '127'
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NoClassDefFoundError: jdk/internal/reflect/ConstructorAccessorImpl
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:422)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:193)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:108)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:77)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:382)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:586)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+Caused by: java.lang.NoClassDefFoundError: jdk/internal/reflect/ConstructorAccessorImpl
+	at java.base/jdk.internal.misc.Unsafe.defineClass0(Native Method)
+	at java.base/jdk.internal.misc.Unsafe.defineClass(Unsafe.java:1192)
+	at java.base/jdk.internal.reflect.ClassDefiner.defineClass(ClassDefiner.java:63)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator$1.run(MethodAccessorGenerator.java:400)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator$1.run(MethodAccessorGenerator.java:394)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator.generate(MethodAccessorGenerator.java:393)
+	at java.base/jdk.internal.reflect.MethodAccessorGenerator.generateConstructor(MethodAccessorGenerator.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:55)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at java.base/java.lang.reflect.Proxy.newProxyInstance(Proxy.java:1022)
+	at java.base/java.lang.reflect.Proxy.newProxyInstance(Proxy.java:1008)
+	at java.base/sun.reflect.annotation.AnnotationParser$1.run(AnnotationParser.java:306)
+	at java.base/sun.reflect.annotation.AnnotationParser$1.run(AnnotationParser.java:304)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.reflect.annotation.AnnotationParser.annotationForMap(AnnotationParser.java:304)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotation2(AnnotationParser.java:294)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations2(AnnotationParser.java:121)
+	at java.base/sun.reflect.annotation.AnnotationParser.parseAnnotations(AnnotationParser.java:73)
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1175)
+	at java.base/java.lang.reflect.Field.declaredAnnotations(Field.java:1173)
+	at java.base/java.lang.reflect.Field.getAnnotation(Field.java:1142)
+	at java.base/java.lang.reflect.AnnotatedElement.isAnnotationPresent(AnnotatedElement.java:274)
+	at java.base/java.lang.reflect.AccessibleObject.isAnnotationPresent(AccessibleObject.java:517)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.isAnnotationPresent(InjectorImpl.java:1039)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processFields(InjectorImpl.java:718)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processClass(InjectorImpl.java:677)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processClassHierarchy(InjectorImpl.java:658)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:115)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	... 25 more
+Caused by: java.lang.ClassNotFoundException: Could not find class 'jdk.internal.reflect.ConstructorAccessorImpl'
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.postFindClass(FXClassLoader.java:117)
+	at org.eclipse.osgi.internal.loader.BundleLoader.searchHooks(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:490)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 56 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.createModuleLoader(FXClassLoader.java:177)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.findClassJavaFX11(FXClassLoader.java:160)
+	at org.eclipse.fx.osgi.fxloader.FXClassLoader.postFindClass(FXClassLoader.java:115)
+	... 62 more
+Caused by: java.lang.IllegalArgumentException: Module javafx.base not known to this layer
+	at java.base/java.lang.ModuleLayer.findLoader(ModuleLayer.java:885)
+	... 69 more
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 0 2019-01-03 15:40:38.483
+!MESSAGE Could not resolve module: org.eclipse.epp.logging.aeri.ide [170]
+  Unresolved requirement: Import-Package: org.apache.lucene.document; version="[7.1.0,8.0.0)"
+
+
+!ENTRY org.eclipse.osgi 4 0 2019-01-03 15:40:38.486
+!MESSAGE Application error
+!STACK 1
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:385)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:260)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:586)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
