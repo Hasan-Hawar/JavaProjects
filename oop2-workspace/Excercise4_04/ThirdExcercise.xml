@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--Restrict the stars to values between 1 and 7 -->
+	<hotel stars="***">
+		<!--each element should occur only once -->
+		<!--only positive numbers are allowed -->
+		<single-room>12 </single-room>
+		<double-room>26 </double-room>
+		<suite> 2 </suite>
+		<!--optional emptyelement-->
+		<lounge/>
+	</hotel>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1553367945728_6" label="Topic1" name="Topic1">
+<item elementID="=Excercise1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise1_Task_1-3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic1_Exercise1_Task4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic1_Exercise1_Task1to3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise1_Task_4" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1553369668173_6" label="Topic2" name="Topic2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic2_Exercise2_Task1And2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic2_Exercise2_Task3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise2_Task_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise2_Task_2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1553369726579_7" label="Topic4" name="Topic4">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise4_03" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise4_04" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise4_05" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise4_06" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1553521620925_8" label="Topic5" name="Topic5">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Excercise5_01" type="4"/>
+<item elementID="=Exercise5_Vorlage_Task3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Example_BookstoreJAXB" type="4"/>
+<item elementID="=Exercise5_Task4" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Task1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Task3" type="4"/>
+<item elementID="=Topic5_Exercise5_Task5" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Vorlage_Task2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Vorlage_Task6" type="4"/>
+<item elementID="=Exercise5_Training_2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Example_BookCatalogStAX" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Example_ItemStAX" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Vorlage_Task2_01" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Task2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic5_Exercise5_Task6" type="4"/>
+<item elementID="=Exercise5_Training_1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1554140581733_9" label="Topic9" name="Topic9">
+<item elementID="=hands-on-studentlistexample" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ThreadsGreeting_Exercise1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic9/.project" type="1"/>
+<item elementID="=FactorialFXML" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=examples-lecture-part2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic9/.classpath" type="1"/>
+<item elementID="=hands-on-counter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Performancetest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=examples-lecture-part3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=examples-lecture-part1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=exercise-solutions" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=GreetingScheduledThreadPool_Exercise_3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=GreetingThreedPool_Exercise2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1555875350584_10" label="OOP2_Project" name="OOP2_Project">
+<item elementID="=TEST" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Fiese15_First_Version" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556648182670_10" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=Topic6_Task1/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic6_Exercise6_Task1/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Fiese15_First_Version/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic6_Exercise6_Vorlage_Task2/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic6_Exercise6_Task2/src" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556648182690_11" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562073624343_12" label="Topic6" name="Topic6">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Exercise6_Task1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Exercise6_Task2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Exercise6_Task3" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Exercise6_Task4" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Example_DigitalClock" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Task1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Example_Styling" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Exercise6_Vorlage_Task2" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Example_ClickMeSimple" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic6_Example_StopWatchMVC" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562073667274_14" label="Topic7" name="Topic7">
+<item elementID="=Topic7_Example_NumberFormatDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_ResourceBundleDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Exercise7_Task1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_FormatDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_LocaleDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_DateFormatDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_ParseDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Task1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic7_Example_CollatorDemo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562073699674_15" label="Topic8" name="Topic8">
+<item elementID="=Topic8_Exercise8_Task2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic8_Exercise8_Task1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Topic8_Example_Hanoi" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562074045603_19" label="Topic10" name="Topic10">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/generics-exercise3-code" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/generics-examples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/generics-handson" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/generics-exercises-solutions" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562074061342_20" label="Topic11" name="Topic11">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Topic11" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562074074449_21" label="Topic12" name="Topic12">
+<item elementID="=Topic12" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562247284263_21" label="Topic3" name="Topic3"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550844229866_2" label="Window Working Set" name="Aggregate for window 1550844229866"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1550845606003_3" label="Window Working Set" name="Aggregate for window 1550845606003"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1556647322100_12" label="Multiple Working Sets" name="Aggregate:Java Main Sources:Java Test Sources:OOP2_Project:Topic1:Topic2:Topic4:Topic5:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1558103595519_13" label="Multiple Working Sets" name="Aggregate:OOP2_Project:Topic1:Topic2:Topic4:Topic5:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562073763159_17" label="Multiple Working Sets" name="Aggregate:OOP2_Project:Topic1:Topic10:Topic2:Topic4:Topic5:Topic6:Topic7:Topic8:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic6"/>
+<workingSet IMemento.internal.id="Topic7"/>
+<workingSet IMemento.internal.id="Topic8"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562073853924_18" label="Multiple Working Sets" name="Aggregate:OOP2_Project:Topic1:Topic2:Topic4:Topic5:Topic6:Topic7:Topic8:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic6"/>
+<workingSet IMemento.internal.id="Topic7"/>
+<workingSet IMemento.internal.id="Topic8"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562247285803_22" label="Multiple Working Sets" name="Aggregate:OOP2_Project:Topic1:Topic10:Topic11:Topic12:Topic2:Topic4:Topic5:Topic6:Topic7:Topic8:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic10"/>
+<workingSet IMemento.internal.id="Topic11"/>
+<workingSet IMemento.internal.id="Topic12"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic6"/>
+<workingSet IMemento.internal.id="Topic7"/>
+<workingSet IMemento.internal.id="Topic8"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562247303101_23" label="Multiple Working Sets" name="Aggregate:OOP2_Project:Topic1:Topic10:Topic11:Topic12:Topic2:Topic3:Topic4:Topic5:Topic6:Topic7:Topic8:Topic9:">
+<workingSet IMemento.internal.id="OOP2_Project"/>
+<workingSet IMemento.internal.id="Topic1"/>
+<workingSet IMemento.internal.id="Topic10"/>
+<workingSet IMemento.internal.id="Topic11"/>
+<workingSet IMemento.internal.id="Topic12"/>
+<workingSet IMemento.internal.id="Topic2"/>
+<workingSet IMemento.internal.id="Topic3"/>
+<workingSet IMemento.internal.id="Topic4"/>
+<workingSet IMemento.internal.id="Topic5"/>
+<workingSet IMemento.internal.id="Topic6"/>
+<workingSet IMemento.internal.id="Topic7"/>
+<workingSet IMemento.internal.id="Topic8"/>
+<workingSet IMemento.internal.id="Topic9"/>
+</workingSet>
+<mruList name="OOP2_Project"/>
+<mruList name="Topic5"/>
+<mruList name="Topic1"/>
+</workingSetManager>

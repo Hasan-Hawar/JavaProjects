@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="678.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="30.0" style="-fx-background-color: #313F91;" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Factorial Calculation" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Bold Italic" size="32.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="30.0" top="20.0" />
+         </padding>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="578.0" prefWidth="332.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Enter a Number">
+               <font>
+                  <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="number">
+               <font>
+                  <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="calc" mnemonicParsing="false" onAction="#factorialCalc" prefWidth="120.0" text="Button">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Nova Cond Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" top="20.0" />
+         </padding>
+      </VBox>
+   </left>
+   <right>
+      <VBox alignment="CENTER_LEFT" prefHeight="578.0" prefWidth="544.0" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <Label fx:id="result" alignment="CENTER" contentDisplay="CENTER" minWidth="80.0" prefHeight="40.0" style="-fx-background-color: #313F91; -fx-border-color: Black;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Nova Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="hotel">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="single-roome" type="xsd:positiveInteger" ></xsd:element>
+				<xsd:element name="double-room" type="xsd:positiveInteger"></xsd:element>
+				<xsd:element name="suite" type="xsd:positiveInteger"></xsd:element>
+				<xsd:element name="lounge" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+					<xsd:choice/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+				<xsd:attribute name="stars" default="3">
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:decimal">
+							<xsd:minInclusive value="1"></xsd:minInclusive>
+							<xsd:maxInclusive value="7"></xsd:maxInclusive>
+						</xsd:restriction>
+					</xsd:simpleType>
+				</xsd:attribute>
+			</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

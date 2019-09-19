@@ -1,0 +1,15 @@
+
+public class Counter {
+	/** Object state. */
+	private long count = 0;
+
+	/** Mutator method. */
+	public synchronized void countUp() {
+		count++;
+	}
+
+	/** Accessor method. */
+	public long getCount() {
+		return count;
+	}
+}

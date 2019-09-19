@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Persons version="FS2019">
+    <Person>
+        <Name>Hasan</Name>
+        <Firstname>Hawar</Firstname>
+        <Birthdate>1992-02-14+01:00</Birthdate>
+        <Maritalstatus>Single</Maritalstatus>
+    </Person>
+    <Person>
+        <Name>Bilal</Name>
+        <Firstname>Hawar</Firstname>
+        <Birthdate>1991-06-09+02:00</Birthdate>
+        <Maritalstatus>Single</Maritalstatus>
+    </Person>
+</Persons>

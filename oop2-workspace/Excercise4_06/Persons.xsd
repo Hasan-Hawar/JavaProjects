@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="https://bfh.ch/BTI7055q" 
+	xmlns:oop2="https://bfh.ch/BTI7055q"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	
+	<xsd:simpleType name="MaritalStatus">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="SINGLE"/>
+			<xsd:enumeration value="MARRIED"/>
+			<xsd:enumeration value="CIVIL_PARTNERSHIP" />
+			<xsd:enumeration value="DIVORCED" />
+			<xsd:enumeration value="WIDOWED" />
+			<xsd:enumeration value=""></xsd:enumeration>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:complexType name="PersonType">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string"/>
+			<xsd:element name="FirstName" type="xsd:string"/>
+			<xsd:element name="Birthdate" type="xsd:date"/>
+			<xsd:element name="MaritalStatus" type="oop2:MaritalStatus"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:complexType name="PersonsType">
+		<xsd:sequence>
+			<xsd:element name="Person" type="oop2:PersonType" maxOccurs="unbounded"
+			 minOccurs="0">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	<xsd:element name="Persons" type="oop2:PersonType"></xsd:element>
+
+</xsd:schema>

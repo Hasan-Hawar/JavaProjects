@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author hasan
+ *
+ */
+module Threads {
+	requires javafx.graphics;
+}

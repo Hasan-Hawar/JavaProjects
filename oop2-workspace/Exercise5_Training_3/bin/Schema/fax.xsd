@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns:tns="http://www.bfh.ch/fax/" 
+targetNamespace="http://www.bfh.ch/fax/">
+
+	<!-- Defining attributes -->
+	<xsd:attribute name="faxno">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="[0-9 ]*" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:attribute>
+	<xsd:attribute name="type" default="NORMAL">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="NORMAL" />
+				<xsd:enumeration value="URGENT" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:attribute>
+	<xsd:attribute name="number" type="xsd:positiveInteger" />
+	<!-- Defining complex types -->
+	<xsd:complexType name="fromTo">
+		<xsd:attribute name="name" type="xsd:string" />
+		<xsd:attribute ref="tns:faxno" />
+	</xsd:complexType>
+	<xsd:simpleType name="priority">
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="NORMAL" />
+				<xsd:enumeration value="URGENT" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	<xsd:complexType name="header">
+		<xsd:all>
+			<xsd:element name="from" type="tns:fromTo" />
+			<xsd:element name="to" type="tns:fromTo" />
+			<xsd:element name="priority" type="tns:priority" />
+			<xsd:element name="pages" type="xsd:int" />
+		</xsd:all>
+	</xsd:complexType>
+
+	<!-- Defining complex elements -->
+
+	<xsd:element name="fax">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="header" type="tns:header" />
+				<xsd:element name="body" type="xsd:string" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

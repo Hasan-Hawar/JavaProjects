@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#loginButton" prefHeight="390.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginApplication.LoginController">
+   <children>
+      <TextField fx:id="email_textfield" layoutX="38.0" layoutY="83.0" prefHeight="34.0" prefWidth="229.0" promptText="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password_textfield" layoutX="38.0" layoutY="152.0" prefHeight="34.0" prefWidth="229.0" promptText="Password" />
+      <Button layoutX="87.0" layoutY="222.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="51.0" prefWidth="131.0" text="Login" textAlignment="CENTER" textFill="#328d38">
+         <font>
+            <Font name="Courier New Bold" size="22.0" />
+         </font>
+      </Button>
+      <Label fx:id="error_lab" layoutX="59.0" layoutY="284.0" prefHeight="29.0" prefWidth="229.0" textFill="#ee0c0c">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="110.0" layoutY="284.0" mnemonicParsing="false" onAction="#signupButton" prefHeight="29.0" prefWidth="85.0" text="Sign up" textAlignment="CENTER" textFill="#3b21e4">
+         <font>
+            <Font name="Courier New Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

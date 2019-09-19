@@ -1,0 +1,36 @@
+package game.startGame;
+
+import java.io.IOException;
+
+import game.Main;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
+
+public class FirstCard {
+
+	Main main;
+	StartGameController start;
+	@FXML
+	public Label l1 = new Label("2");
+	@FXML
+	public TextField t2 = new TextField();
+	@FXML
+	public TextField t3 = new TextField();
+	@FXML
+	public TextField t4 = new TextField();
+	@FXML
+	public TextField t5 = new TextField();
+	@FXML
+	public TextField t6 = new TextField();
+
+	@FXML
+	public VBox vBox_1 = new VBox();
+
+	@FXML
+	private void chooseCard() throws IOException {
+
+		start.chooseCard();
+	}
+}

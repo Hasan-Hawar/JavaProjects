@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OOP2:Persons
+	xmlns:oop2="https://bfh.ch/BTI7055q"
+	xmlns:xsi="http:www.w3.org/2001/XMLSchema-instance"
+	xsi:xsi:schemaLocation="https://bfh.ch/BTI7055q Persons.xsd"
+	oop2:version="FS2019">
+	
+	<oop2:Persons>
+		<oop2:Name>Duck</oop2:Name>
+		<oop2:FirstName>Donald</oop2:FirstName>
+		<oop2:Birthdate>1920-04-13</oop2:Birthdate>
+		<oop2:MaritalStatus>SINGLE</oop2:MaritalStatus>
+	</oop2:Persons>
+	<oop2:Persons>
+		<oop2:Name>Luke</oop2:Name>
+		<oop2:FirstName>Lucky</oop2:FirstName>
+		<oop2:Birthdate>1946-11-14</oop2:Birthdate>
+		<oop2:MaritalStatus>SINGLE</oop2:MaritalStatus>
+	</oop2:Persons>
+	<oop2:Persons>
+		<oop2:Name>Dalton</oop2:Name>
+		<oop2:FirstName>Mac</oop2:FirstName>
+		<oop2:Birthdate>1958-01-01</oop2:Birthdate>
+		<oop2:MaritalStatus>WIDOWED</oop2:MaritalStatus>
+	</oop2:Persons>	
+</OOP2:Persons>

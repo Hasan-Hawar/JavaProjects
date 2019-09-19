@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;excutor&apos; in &apos;Excute.main(...)&apos; to &apos;executor&apos;&#x0D;&#x0A;- Original project: &apos;GreetingScheduledThreadPool_Exercise_3&apos;&#x0D;&#x0A;- Original element: &apos;Excute.main(String[]).excutor&apos;&#x0D;&#x0A;- Renamed element: &apos;excutor&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;excutor&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Excute.java[Excute~main~\[QString;@excutor!246!316!271!277!QScheduledExecutorService;!0!false" name="executor" references="true" stamp="1554570506172" version="1.0"/>
+</session>

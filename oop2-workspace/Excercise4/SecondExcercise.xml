@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<!-- Dieses Dokument enthält einige Fehler -->
+	<Information> Dieses Dokumentcontainssome 
+		<bold> information.</bold><br/> Wenn 
+		es korrigiert wurde, kann es 
+		mit Hilfe eines Parser eingelesen 
+		werden</Information>
+ </document>

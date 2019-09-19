@@ -1,0 +1,28 @@
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 25 0 25 0;
+    -fx-background-color:#139BB4;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, Franklin Gothic Book;
+    -fx-font-size: 2em; /* 12 */
+    -fx-text-fill: Black;
+}
+
+.button:focused {
+    -fx-border-color: violet ;
+   
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:pressed {
+   
+    -fx-background-radius: 0 25 0 25;
+   
+}
+.button:hover { 
+  -fx-background-color: Black; 
+  -fx-border-size: 1px; 
+  -fx-border-style: solid; 
+    -fx-text-fill: #139BB4;
+} 

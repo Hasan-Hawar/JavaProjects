@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Univarsity>
+    <name>bfh</name>
+    <staff>
+        <staffMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="student">
+            <name>Max</name>
+            <email>max@bfh.ch</email>
+            <grade>B</grade>
+            <module>OOP1</module>
+        </staffMember>
+        <staffMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="professor">
+            <name>Mr. X</name>
+            <email>prof.x@bfh.ch</email>
+            <subject>IT Security</subject>
+        </staffMember>
+        <staffMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="employee">
+            <name>Erni Schmidt</name>
+            <email>erni.schmidt@bfh.ch</email>
+        </staffMember>
+    </staff>
+    <students>
+        <student>
+            <name>Max</name>
+            <email>max@bfh.ch</email>
+            <grade>B</grade>
+            <module>OOP1</module>
+        </student>
+        <student>
+            <name>Tom</name>
+            <email>tom@bfh.ch</email>
+            <grade>c</grade>
+            <module>OOP1</module>
+        </student>
+    </students>
+</Univarsity>

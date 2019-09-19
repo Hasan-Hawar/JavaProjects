@@ -1,0 +1,18 @@
+
+public class ThreadsCounter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int rounds = 10000;
+		Counter count = new Counter();
+
+		Thread t1 = new Thread(() -> {
+			for (int i = 0; i < rounds; i++) {
+
+			}
+		});
+
+	}
+
+}

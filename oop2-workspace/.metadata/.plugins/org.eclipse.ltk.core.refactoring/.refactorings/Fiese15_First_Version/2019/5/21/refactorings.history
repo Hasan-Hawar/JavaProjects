@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;str&apos; in &apos;game.startGame.FirstCard.diceThrow()&apos; to &apos;strStripe&apos;&#x0D;&#x0A;- Original project: &apos;Fiese15_First_Version&apos;&#x0D;&#x0A;- Original element: &apos;game.startGame.FirstCard.diceThrow().str&apos;&#x0D;&#x0A;- Renamed element: &apos;str&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;str&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;game.startGame{FirstCard.java[FirstCard~diceThrow@str!1097!1137!1104!1106!\[QString;!0!false" name="strStripe" references="true" stamp="1558375330831" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="%Menu.language">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#changeLanguageDe" text="%lang.de" />
+                  <MenuItem mnemonicParsing="false" onAction="#changeLanguageEn" text="%lang.en" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label fx:id="label" layoutX="139.0" layoutY="151.0" text="%label.text" />
+      <Label fx:id="label2" layoutX="139.0" layoutY="190.0" text="%label2.text" />
+      <Label fx:id="label3" layoutX="139.0" layoutY="232.0" text="%label3.text" />
+      <Button layoutX="274.0" layoutY="309.0" mnemonicParsing="false" onAction="#clickMe" text="%button.text" />
+   </children>
+</Pane>

@@ -1,0 +1,12 @@
+1556559370413	Rename type 'TwoPlayersController'
+1556561158090	Delete elements
+1556645079041	Rename resource 'TwoPlayers.fxml'
+1556647659030	Rename method 'showTwoPlayer'
+1556647935781	Rename field 'twoPlayersStage'
+1556647957147	Rename local variable 'two_Players'
+1556648078184	Delete element
+1556648096364	Rename resource 'Players.fxml'
+1556650433916	Rename type 'PlayersNumber'
+1556650468254	Rename type 'TwoPlayers'
+1556653145956	Delete elements
+1556653150691	Delete elements

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BankData>
+<bankAccount accounttype = "Savings">
+	<iban>CH9 0921 0923 0000 1628 6</iban>
+	<Customer>
+		<firstName>Stephan</firstName><Name>M</Name>
+		<adress>
+			<Street>xx</Street>
+			<city>Bern</city>
+			<PLZ>30xx</PLZ>
+			<TL> 078xxxxxxxx </TL>
+		</adress>	
+	<accountStatus>Open</accountStatus>
+	</Customer>
+
+
+
+
+</bankAccount>
+
+</BankData>

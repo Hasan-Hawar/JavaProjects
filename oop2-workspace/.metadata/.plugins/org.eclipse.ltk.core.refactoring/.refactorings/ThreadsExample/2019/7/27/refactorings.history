@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ExampleWithTask&apos; to &apos;ExampleWithThreadPool&apos;&#x0D;&#x0A;- Original project: &apos;ThreadsExample&apos;&#x0D;&#x0A;- Original element: &apos;ExampleWithTask&apos;&#x0D;&#x0A;- Renamed element: &apos;ExampleWithThreadPool&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ExampleWithTask&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/ThreadPool&lt;{ExampleWithTask.java[ExampleWithTask" matchStrategy="1" name="ExampleWithThreadPool" qualified="false" references="true" similarDeclarations="false" stamp="1562008940472" textual="false" version="1.0"/>
+</session>

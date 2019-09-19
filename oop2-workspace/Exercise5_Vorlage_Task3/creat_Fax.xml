@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:fax xmlns:ns1="http://www.bfh.ch/fax/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bfh.ch/fax/ Schema\fax.xsd">
+    <header>
+        <from name="MyCompany" ns1:faxno=" 012 345 67 89 "/>
+        <to name="YourCompany" ns1:faxno=" 089 765 43 21 "/>
+        <priority>URGENT</priority>
+        <pages>1</pages>
+    </header>
+    <body>This message in the Body of our Fax</body>
+</ns1:fax>
