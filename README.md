@@ -1,1 +1,4 @@
-
+-- OOP1 project at Bern university of applied science
+-- OOP2 project at Bern university of applied science
+-- oop1-workspace : it shows you all homework in the first semester at BFH
+-- oop2-workspce  : it shows you all homework in the second semester at BFH
